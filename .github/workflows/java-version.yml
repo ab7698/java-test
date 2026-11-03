@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-java@v6
         with:
           distribution: jetbrains
-          java-version: '25'
+          java-version: latest
           check-latest: true
       - name: Print Java version
         run: java -version
